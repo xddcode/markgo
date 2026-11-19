@@ -24,7 +24,7 @@ required-features = ["render-check"]
 [dependencies]
 pulldown-cmark = { version = "=0.13.6", default-features = false }
 unicode-segmentation = "=1.13.3"
-gpui-kit = { version = "=0.9.1", optional = true }
+gpui-kit = { version = "=0.10.0", optional = true }
 anyhow = { version = "=1.0.104", optional = true }
 serde = { version = "=1.0.229", features = ["derive"] }
 serde_json = "=1.0.154"
